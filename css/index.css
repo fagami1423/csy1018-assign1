@@ -1,4 +1,4 @@
-h1,h2,h3,h4,h5,h6,p{margin: 0; background-color: #100640; padding: 0;}
+h1,h2,h3,h4,h5,h6,p{margin: 0; padding: 0;}
 header{
   height: 100px;
   background-color: black;
@@ -23,9 +23,9 @@ header{
   padding: 1%
 }
 
-div ul{
+.nav ul{
   background-color:#2a2a2a;
-  color:#f0f0f0;
+  color: white;
   height: 40px;
   display: flex;
   flex-flow: row wrap;
@@ -35,7 +35,8 @@ div ul{
 }
 
 
-div ul li{
+.nav ul li{
+  color: white;
   padding-left: 2em;
   list-style: none;
   padding-top: 8px;
@@ -43,21 +44,24 @@ div ul li{
   padding-right: 2em;
 
 }
+.nav ul li a{color: white;}
 
-div ul li:hover{
+.nav ul li:hover{
   background-color: white;
   color: black;
 }
+.nav ul li a:hover{color: black;}
 
 section{
   background-color: #727272;
   display: flex;
   flex-direction: row;
-  height: 500px;
+  height: 400px;
   color: #ffffff;
   ;
 }
 .image{
+  color:#ffffff;
   width: 23%;
   padding: 1%;}
 .main{
@@ -65,7 +69,7 @@ section{
   padding: 1%;
   text-align: center;
   text-shadow: 2px;
-  font-family: cursive;
+
 
 }
 .main p{
@@ -76,5 +80,27 @@ section{
 footer{
   background-color:  #292929;
   height: 40px;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  width: 100%
 }
+.shar{
+  width: 30px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 1%;
+}
+.navi{width: 30%;
+background-color: red;
+}
+.navi ul{display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+.navi ul li{list-style: none; text-align: center; padding-left: 1.5em; padding-bottom: 1.5em;
+padding-right: 1.5em;}
+.navi ul li a{color: white;}
+.navi ul li a:hover{color: blue;}
