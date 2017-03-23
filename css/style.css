@@ -1,0 +1,124 @@
+h1,h2,h3,h4,h5,h6,p{margin: 0; padding: 0;}
+header{
+  height: 100px;
+  width: 100%;
+  background-color: #243c4d;
+  border-bottom: white 2px solid;
+
+
+}
+header img{height: 98%; display: block;
+    margin: auto; border-radius: 50%;
+    opacity: 0.7;
+   }
+
+.nav{
+    border-bottom: white 3px solid;
+ }
+.nav ul{
+  background-color:#2a2a2a;
+  color: white;
+  height: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin: auto;
+
+}
+
+
+.nav ul li{
+  color: white;
+  padding-left: 2em;
+  list-style: none;
+  padding-top: 8px;
+  text-align: center;
+  padding-right: 2em;
+  border-radius: 10px;
+
+}
+.nav ul li a{color: white;}
+
+.nav ul li:hover{
+  background-color: #91aec2;
+  transition: 2s;
+  transform: rotateY(360deg);
+
+
+
+}
+.nav ul li a:hover{color: white;}
+
+section{
+  background-color: #727272;
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  color: #ffffff;
+  background-image: url;(..images/5.jpg);
+  ;
+}
+.image{
+  color:#ffffff;
+  width: 25%;
+  border-right: white 2px solid;
+  }
+.image img{height: 98%; display: block;
+    margin: auto;
+    width: 99%;
+    border: 2px solid  #727272;
+    padding-top: 2px;
+    border-radius: 10px;
+}
+.image img:hover{transition: 4s;
+          transform: translate(550px, 0px);
+            }
+
+.main{
+  width: 49%;
+  padding: 0.9%;
+  text-align: center;
+  text-shadow: 2px;
+  border-right: white 2px solid;
+}
+.main h2{font-style: oblique; color: white; background: black;}
+.main h2{color: white; background: black;}
+.main p{
+  text-align: justify;
+  font-family: monospace;
+  font-size: 15px;
+}
+.main img{display: block;
+    margin: auto;
+    height: 300px;
+    width: 300px; border-radius: 50%;}
+.main img:hover{transition: 4s;
+  box-shadow: 0 0 3px 2px white;
+  transform: scale(0.5, 0.5);
+}
+
+footer{
+  background-color:  #292929;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  width: 100%;
+  border-top:  white 2px solid;
+
+}
+.navi{width: 32%;
+
+  padding: 1%;
+}
+.navi ul{display: flex;
+flex-direction: row;
+justify-content:space-between;
+}
+.navi ul li{list-style: none; text-align: center; padding-left: 1.5em;
+padding-right: 1.5em;}
+.navi ul li a{color: white; padding-bottom: 4em;}
+.navi ul li a:hover{color: #696969;}
+
+.share{width: 32%; padding: 1%; text-align: left;}
+.copy {width: 32%; padding: 1%; text-align: center; }
