@@ -1,55 +1,66 @@
 h1,h2,h3,h4,h5,h6,p, body{margin: 0; padding: 0; background-repeat: url(../images/back.JPG);
 background-size: cover;}
 header{
-  height: 100px;
+
   width: 100%;
   background-color: #1c4a68;
-    border-bottom: white 1px solid
+  display: flex;
+  flex-direction: column;
+
+
 
 
 
 }
-header img{height: 98%; display:block;
-    margin: auto; border-radius: 50%;
-    opacity: 0.5;
+header .logo{
+  height: 50%;
+  position: relative;
+  border-bottom: white 1px solid;}
+header .logo img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+ }
 
 
-   }
 
-.nav{
 
-    background-image: url(../images/8.jpg);
-    background-size: cover;
-    font-size: 1em;
+header .nav{height: 50%;
+
+    font-size: 1.5em;
+
+
 
 
  }
-.nav ul{
-  background-color:#1c4a68;
+header .nav ul{
+
   color: white;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content:center;
   margin:0 auto;
 
+
 }
 
 
-.nav ul li{
-  padding: 4% 5%;
+header .nav ul li{
+  padding: 20px;
   list-style: none;
-  padding-top: 8px;
+  padding-right: 50px;
+  padding-left: 50px;
   border-radius: 10px;
-  padding-bottom: 1%;
-  padding-top: 1%;
 
 
 }
-.nav ul li a{
+header .nav ul li a{
   color: white; list-style: none;text-decoration: none;
 }
 
-.nav ul li:hover{
+header .nav ul li:hover{
   background-color: #e9ebee;
   transition: 2s;
 
@@ -57,7 +68,7 @@ header img{height: 98%; display:block;
 
 
 }
-.nav ul li a:hover{color: red;}
+header .nav ul li a:hover{color: red;}
 /*
 the codes below is for homepage.
 */
@@ -154,7 +165,7 @@ this for about me page
 }
 .aboutimage{
 
-  width: 25%;
+  width: 30%;
 
 }
 .aboutimage img{
@@ -166,7 +177,7 @@ this for about me page
 .aboutmain{
   text-align: center;
   color: #000066;
-  width: 75%;
+  width: 70%;
 }
 .aboutmain h1{font-size: 4em; background:  #999999;}
 .aboutmain p{
@@ -177,8 +188,39 @@ this for about me page
 }
 .aboutmain h2{ font-size: 2em;
  background: #d9d9d9;
- padding-top: 190px;
+ padding-top: 320px;
 }
+/*
+this is for contact page.
+*/
+.contactsection{
+  height: 600px;
+}
+
+/*
+this is for contact
+*/
+.contactsection{
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.mycontact{
+  width:50%;
+  text-align: center;
+}
+.mycontact img{height: 40%; width: 40%; border-radius: 50px;}
+
+.form{width: 50%;
+}
+.form h1{font-size: 1.5em;}
+.form p{}
+.form input{ width: 60%; height: 30px;}
+.form .submit{width: 20%;}
+textarea{width: 60%;}
+
+
 
 
 footer{
@@ -194,16 +236,9 @@ footer{
 
   padding: 1%;
 }
-.navi ul{display: flex;
-flex-direction: row;
-justify-content:space-between;
-}
-.navi ul li{list-style: none; text-align: center; padding-left: 1.5em;
-padding-right: 1.5em;}
-.navi ul li a{color: white; padding-bottom: 4em;}
-.navi ul li a:hover{color: #696969;}
 
-.share{width: 32%; padding: 1%; text-align: left;}
+
+.share{width: 32%; padding: 1%; text-align: center;}
 .copy {width: 32%; padding: 1%; text-align: center; }
 
 
