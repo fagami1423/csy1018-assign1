@@ -2,7 +2,7 @@ h1,h2,h3,h4,h5,h6,p, body{margin: 0; padding: 0;
 }
 header{
   width: 100%;
-  background-color: #1c4a68;
+  background-color: #520030;
   display: flex;
   flex-direction: column;
 }
@@ -12,9 +12,9 @@ header .logo{
   position: relative;
   border-bottom: white 1px solid;}
 header .logo img{
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
+  height: 10%;
+  width: 10%;
+  border-radius: 100px;
   display: block;
   margin: auto;
  }
@@ -68,41 +68,50 @@ header .nav ul li a:hover{color: red;}
 the codes below is for homepage.
 */
 .homesection{
-
+  background-color: #e9ebee;
   display: flex;
   flex-direction: row;
-  color: #ffffff;
+  color: #520030;
   width: 100%;
-  background-image: url();
-
 }
+
 .info{
   padding-top: 1px;
-  color:#ffffff;
-  width: 25%;
+
+  width: 30%;
+  border-top:#65666a 3px solid;
   border-right:#65666a 3px solid;
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: #d9d9d9;
+
+
 
 }
-.article{height: 50%; width: 100%;}
-.article h2{color: #012c46;
+.article{height: 50%; width: 100%; background-color: ;}
+.article h2{font-size: 2em;
 }
-.article fieldset{background-color: #b2b1b1; border-top: #65666a 3px solid;}
+.article p{text-align: justify; font-size: 1.3em; padding: 20px; background-color: ;}
+.article fieldset{border-top: #65666a 3px solid; background: #83004d; color:white;}
 
 .main{
-  width: 50%;
+
+  width: 40%;
   padding-top: 30px;
   text-align: center;
-background: #e9ebee;
+
   border-top:#65666a 3px solid;
   border-right: #65666a 3px solid;
-  color:  #012c46;
+  color: #520030;
+
+
 }
 
-.main h1{font-size: 4em;}
+.main h1{
+  font-size: 3em;
+ text-shadow: 0 0 3px #FF0000;
+
+}
 .main p{
   padding: 2%;
   text-align: justify;
@@ -110,51 +119,72 @@ background: #e9ebee;
   font-size: 1em;
 }
 .main img{
-    margin: auto;
-    width: 50%; border-radius: 50%;
-  height: 50%;}
+  margin: auto;
+  width: 400px;
+  border-radius: 50%;
+  height: 400px;
+  box-shadow: 0 0 3px 2px black;
+
+
+}
+
 
 .main img:hover{transition: 4s;
   box-shadow: 0 0 3px 2px white;
   transform: scale(0.5, 0.5);
 }
 
+.main h3{font-size: 2em;}
+
 .art{
+  padding-top: 1px;
   border-top:#65666a 3px solid;
-  width: 25%;
+  width: 30%;
   display: flex;
   flex-direction: column;
-  text-align: center;
-  background-color: #d9d9d9;
+
+
 
 }
-
+.art fieldset{ border-top:#65666a 3px solid; background: #83004d; color: white;}
+.art h2{font-size: 2em; text-align: center;}
 .drawing{
-  border-bottom: #65666a 3px solid;
+
   height: 50%;
   padding-top: 1px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
-.drawing fieldset{background-color: #b2b1b1;   border-top:#65666a 3px solid;}
-.drawing h2{color:  #012c46;}
+.gallery{display: flex;
+flex-direction: row;
+justify-content: center;}
+.gallery img{height: 130px; width: 130px; padding: 2px; border: #520030 3px solid; }
+.gallery img:hover{
+  transition: 4s;
+  transform: scale(3,2);
+}
+
 
 .links{
   height: 50%;
 
 }
-.links fieldset{background-color: #b2b1b1;}
-.links h2{ color:  #012c46;}
+.links fieldset{border-top:#65666a 3px solid; background: #83004d; color: white;}
+.links h2{ font-size: 2em;}
+.links li{font-size: 1.5em;}
+.links li a{text-decoration: none; color: #520030;}
 /*
 this for about me page
 */
 
 .aboutsection{
-  background-image: url(../images/village.jpg);
-  background-size: cover;
+
+  background-color: #e9ebee;
 
   display: flex;
   flex-direction: row;
-  color: #ffffff;
+  color: #520030;
   width: 100%;
 
 
@@ -173,15 +203,16 @@ this for about me page
 .aboutmain{
 
   text-align: center;
-  color: rgb(255, 255, 255);
+
   width: 70%;
 }
-.aboutmain h1{font-size: 4em; }
+.aboutmain h1{font-size: 5em; }
 .aboutmain p{
   font-size: 2em;
-  padding: 20px;
+  padding: 30px;
 
-  text-align: justify
+  text-align: justify;
+
 }
 .aboutmain h2{ font-size: 3em;
 
@@ -191,24 +222,30 @@ this for about me page
 this is for cv page
 */
 .cvsection{
-
+  background-color: #e9ebee;
   display: flex;
   flex-direction: column;
+  color: #520030;
+
 }
 .title{text-align: center; font-size: 4em;}
-.title2{padding-left: 20px;}
+
 .personal{display: flex;
-flex-direction: row;}
-.information{width:10%; }
+flex-direction: row;font-size: 1em; }
+.information{width:40%; text-align: right;}
+.information h2{padding-right: 40px;}
 .information ul{}
-.information ul li{}
-.data{width:40%; padding-top: 0.7%;}
+.information ul li{list-style: none; }
+.data{width: 65%; padding-top: 0.7%;}
 .data li{list-style: none;}
 .others{text-align: justify; display: block; margin: auto;}
+.others li{list-style: none; font-size: 1em;}
 /*
 this is for contact page.
 */
 .contactsection{
+  background: #e9ebee;
+  color: #520030;
 
 }
 
@@ -224,15 +261,22 @@ this is for contact
 .mycontact{
   width:50%;
   text-align: center;
+  font-size: 1.3em;
 }
 .mycontact img{height: 40%; width: 40%; border-radius: 50px;}
+.mycontact h1{font-size: 3em;}
 
 .form{width: 50%;
+
 }
-.form h1{font-size: 1.5em;}
-.form p{}
+.form h1{
+  font-size: 4em;
+}
+.form p{
+  font-size: 1.4em;}
 .form input{ width: 60%; height: 30px;}
-.form .submit{width: 20%;}
+.form .submit{width: 60%; }
+.get{display: block; margin: auto;}
 textarea{width: 60%;}
 
 
@@ -244,17 +288,20 @@ footer{
   flex-direction: row;
   color: white;
   width: 100%;
-  border-top:  #1c4a68 1px solid;
+  border-top:  #65666a 3px solid;
 
 }
-.navi{width: 32%;
+.foot{width: 33%;
 
-  padding: 1%;
+
 }
-
-
-.share{width: 32%; padding: 1%; text-align: center;}
-.copy {width: 32%; padding: 1%; text-align: center; }
+.foot{width: 33%; padding: 1%; text-align: center;}
+.foot i{font-size: 3.5em;}
+.fa-google-plus-square{color:red;}
+.fa-facebook-official{color: #fff;}
+.fa-instagram{color:#a40061;}
+.fa-pinterest-square{color: #7f0000;}
+.foot img{height:100px; width: 200px; }
 
 
 
