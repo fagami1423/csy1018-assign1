@@ -149,8 +149,9 @@ this for about me page
 */
 
 .aboutsection{
+  background-image: url(../images/village.jpg);
+  background-size: cover;
 
-  background: #e9ebee;
   display: flex;
   flex-direction: row;
   color: #ffffff;
@@ -167,26 +168,43 @@ this for about me page
 
   width: 100%;
   height: 100%;
-  opacity: 0.8;
+
 }
 .aboutmain{
-  background-image: url(../images/village.jpg);
-  background-size: cover;
+
   text-align: center;
-  color: #000066;
+  color: rgb(255, 255, 255);
   width: 70%;
 }
-.aboutmain h1{font-size: 4em; background:  #999999;}
+.aboutmain h1{font-size: 4em; }
 .aboutmain p{
   font-size: 2em;
   padding: 20px;
-  background: #d9d9d9;
+
   text-align: justify
 }
-.aboutmain h2{ font-size: 2em;
- background: #d9d9d9;
- padding-top: 320px;
+.aboutmain h2{ font-size: 3em;
+
+ padding-top: 200px;
 }
+/*
+this is for cv page
+*/
+.cvsection{
+
+  display: flex;
+  flex-direction: column;
+}
+.title{text-align: center; font-size: 4em;}
+.title2{padding-left: 20px;}
+.personal{display: flex;
+flex-direction: row;}
+.information{width:10%; }
+.information ul{}
+.information ul li{}
+.data{width:40%; padding-top: 0.7%;}
+.data li{list-style: none;}
+.others{text-align: justify; display: block; margin: auto;}
 /*
 this is for contact page.
 */
