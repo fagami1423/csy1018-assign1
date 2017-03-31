@@ -88,10 +88,10 @@ the codes below is for homepage.
 
 
 }
-.article{height: 50%; width: 100%; background-color: ;}
+.article{height: 50%; width: 100%; }
 .article h2{font-size: 2em;
 }
-.article p{text-align: justify; font-size: 1.3em; padding: 20px; background-color: ;}
+.article p{text-align: justify; font-size: 1.3em; padding: 20px; }
 .article fieldset{border-top: #65666a 3px solid; background: #83004d; color:white;}
 
 .main{
@@ -375,4 +375,5 @@ header{
   display: flex;
   flex-direction: column;
   width: 100%;
+}
 }
