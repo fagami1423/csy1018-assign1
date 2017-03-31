@@ -285,71 +285,51 @@ textarea{width: 60%;}
 footer{
   background-color:   #1c4a68;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   color: white;
   width: 100%;
   border-top:  #65666a 3px solid;
 
-}
-.foot{width: 33%;
-
 
 }
-.foot{width: 33%; padding: 1%; text-align: center;}
-.foot i{font-size: 3.5em;}
-.fa-google-plus-square{color:red;}
+.foot{
+  height: 50%;
+  text-align: center;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+}
+
+.foot i{font-size: 3.5em; padding: 10px; padding-top: 30px;}
+.fa-google-plus-square{color:red; }
 .fa-facebook-official{color: #fff;}
 .fa-instagram{color:#a40061;}
 .fa-pinterest-square{color: #7f0000;}
-.foot img{height:100px; width: 200px; }
 
-
+.icon a img{height:100px; width: 200px;  }
+.icon{width:33%;}
+.copy{text-align: center;}
 
 @media (max-width: 600px)
 {
 header{
+  display: flex;
+  flex-direction: column;
   width: 100%;
+  border: none;
 }
-.nav
-{
+header .nav{
   width:100%;
 }
-.nav ul{
+header .nav ul{
   width:100%;
   display: flex;
   flex-direction: column;
-
   padding:0;
+  justify-content: flex-start;
 }
-.nav ul li{
+header .nav ul li{
   text-align: center;
-}
-
-.info{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-.article
-{
-  width:100%;
-}
-.footer
-{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: center;
-}
-.navi{
-  display: none;
-}
-.share
-{
-  width: 100%;
-}
-.copy{
-  width: 100%;
 }
 .homesection
 {
@@ -361,7 +341,7 @@ header{
   width: 100%;
   display: flex;
   flex-direction: column;
-  border:1px solid black;
+  border:none;
 }
 .article{
   width: 100%;
@@ -369,11 +349,44 @@ header{
 }
 .main{
   width: 100%;
+  border: none;
 }
+.main img{height: 300px; width: 300px; border-radius: 50%;}
 .art{
   margin-top: 2%;
   display: flex;
   flex-direction: column;
   width: 100%;
+  border: none;
 }
+.art fieldset{border: none}
+.drawing{
+
+  height: 50%;
+  padding-top: 1px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.gallery{display: flex;
+flex-direction: row;
+justify-content: center;}
+.gallery img{height: 100px; width: 100px; padding: 2px; }
+
+
+
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: none;
+}
+.foot{
+  width: 99%;
+display: flex;
+flex-direction: column;}
+.icon
+
 }
