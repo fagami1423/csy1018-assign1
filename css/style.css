@@ -2,68 +2,54 @@ h1,h2,h3,h4,h5,h6,p, body{margin: 0; padding: 0;
 }
 header{
   width: 100%;
-  background-color: #520030;
-  display: flex;
-  flex-direction: column;
+  background-color: #520030;/*this property is used for making the background colorful*/
+  display: flex;        /*this property is used to */
+  flex-direction: column;/*this property helps the divs to be shown in column*/
 }
 
 header .logo{
   height: 50%;
-  position: relative;
-  border-bottom: white 1px solid;}
+  border-bottom: white 1px solid; /*this property is is used for border in bottom with white in color of size 1px and solid*/
+}
 header .logo img{
   height: 10%;
   width: 10%;
-  border-radius: 100px;
-  display: block;
+  border-radius: 100px;/*this property is used to make different shapes for divs or images*/
+  display: block;/* this property is used to make the image alignment to the center of the page*/
   margin: auto;
  }
-
-
-
-
-header .nav{height: 50%;
-
-    font-size: 1.5em;
-
-
-
-
- }
+header .nav{
+  height: 50%;
+  font-size: 1.5em; /*this property is used to specify the size of the font*/
+}
 header .nav ul{
-
   color: white;
   display: flex;
   flex-direction: row;
-  justify-content:center;
-  margin:0 auto;
-
-
+  justify-content: center; /*this property is used to make the things to be in center*/
+  margin: auto;
 }
 
-
 header .nav ul li{
-  padding: 20px;
-  list-style: none;
+  padding: 20px;/*this property is used for distancing text or something from the sides and corners within a block*/
+  list-style: none;/*this property is used to remove the style of list*/
   padding-right: 50px;
   padding-left: 50px;
   border-radius: 10px;
-
-
 }
 header .nav ul li a{
-  color: white; list-style: none;text-decoration: none;
+  color: white;
+  list-style: none;
+  text-decoration: none;
 }
 
 header .nav ul li:hover{
   background-color: #e9ebee;
   transition: 2s;
-
-
-
-
 }
-header .nav ul li a:hover{color: red;}
+header .nav ul li a:hover{
+  color: red;
+}
 /*
 the codes below is for homepage.
 */
@@ -77,45 +63,47 @@ the codes below is for homepage.
 
 .info{
   padding-top: 1px;
-
   width: 30%;
   border-top:#65666a 3px solid;
   border-right:#65666a 3px solid;
   display: flex;
   flex-direction: column;
   text-align: center;
-
-
-
 }
-.article{height: 50%; width: 100%; }
-.article h2{font-size: 2em;
+.article{
+  height: 50%;
+   width: 100%;
+ }
+.article h2{
+  font-size: 2em;
 }
-.article p{text-align: justify; font-size: 1.3em; padding: 20px; }
-.article fieldset{border-top: #65666a 3px solid; background: #83004d; color:white;}
+.article p{
+  text-align: justify;
+  font-size: 1.3em;
+  padding: 20px;
+}
+.article fieldset{
+  border-top: #65666a 3px solid;
+  background: #83004d;
+  color:white;
+}
 
 .main{
-
   width: 40%;
   padding-top: 30px;
   text-align: center;
-
   border-top:#65666a 3px solid;
   border-right: #65666a 3px solid;
   color: #520030;
-
-
 }
 
 .main h1{
   font-size: 3em;
  text-shadow: 0 0 3px #FF0000;
-
 }
 .main p{
   padding: 2%;
   text-align: justify;
-
   font-size: 1em;
 }
 .main img{
@@ -124,17 +112,18 @@ the codes below is for homepage.
   border-radius: 50%;
   height: 400px;
   box-shadow: 0 0 3px 2px black;
-
-
 }
 
 
-.main img:hover{transition: 4s;
+.main img:hover{
+  transition: 4s;
   box-shadow: 0 0 3px 2px white;
   transform: scale(0.5, 0.5);
 }
 
-.main h3{font-size: 2em;}
+.main h3{
+  font-size: 2em;
+}
 
 .art{
   padding-top: 1px;
@@ -142,81 +131,92 @@ the codes below is for homepage.
   width: 30%;
   display: flex;
   flex-direction: column;
-
-
-
 }
-.art fieldset{ border-top:#65666a 3px solid; background: #83004d; color: white;}
-.art h2{font-size: 2em; text-align: center;}
+.art fieldset{
+  border-top:#65666a 3px solid;
+  background: #83004d;
+  color: white;
+}
+.art h2{
+  font-size: 2em;
+  text-align: center;
+}
 .drawing{
-
   height: 50%;
   padding-top: 1px;
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-.gallery{display: flex;
-flex-direction: row;
-justify-content: center;}
-.gallery img{height: 130px; width: 130px; padding: 2px; border: #520030 3px solid; }
+.gallery{
+  display: flex;
+  flex-direction: row;
+  justify-content: center; padding-top: 5px;
+}
+.gallery img{
+  height: 130px;
+  width: 130px;
+  padding: 2px;
+  border: #520030 1px solid;
+}
 .gallery img:hover{
   transition: 4s;
   transform: scale(3,2);
 }
-
-
 .links{
   height: 50%;
-
 }
-.links fieldset{border-top:#65666a 3px solid; background: #83004d; color: white;}
-.links h2{ font-size: 2em;}
-.links li{font-size: 1.5em;}
-.links li a{text-decoration: none; color: #520030;}
+.links fieldset{
+  border-top:#65666a 3px solid;
+  background: #83004d;
+  color: white;
+}
+.links h2{
+  font-size: 2em;
+}
+.links li{
+  font-size: 1.5em;
+}
+.links li a{
+  color: #520030;
+  padding: 10px;
+}
+.links li a:hover{
+  color: blue;
+}
 /*
 this for about me page
 */
 
 .aboutsection{
-
   background-color: #e9ebee;
-
   display: flex;
   flex-direction: row;
   color: #520030;
   width: 100%;
-
-
 }
 .aboutimage{
-
   width: 30%;
-
 }
 .aboutimage img{
-
   width: 100%;
   height: 100%;
-
 }
 .aboutmain{
-
   text-align: center;
-
   width: 70%;
 }
-.aboutmain h1{font-size: 5em; }
+.aboutmain h1{
+  font-size: 5em;
+}
 .aboutmain p{
   font-size: 2em;
   padding: 30px;
-
   text-align: justify;
-
 }
-.aboutmain h2{ font-size: 3em;
-
- padding-top: 200px;
+.aboutmain h2{
+  font-size: 3em;
+  padding-top: 200px;
 }
 /*
 this is for cv page
@@ -228,32 +228,50 @@ this is for cv page
   color: #520030;
 
 }
-.title{text-align: center; font-size: 4em;}
-
-.personal{display: flex;
-flex-direction: row;font-size: 1em; }
-.information{width:40%; text-align: right;}
-.information h2{padding-right: 40px;}
-.information ul{}
-.information ul li{list-style: none; }
-.data{width: 65%; padding-top: 0.7%;}
-.data ul{padding-top: 16px;}
-.data li{list-style: none;}
-.others{text-align: justify; display: block; margin: auto;}
-.others li{list-style: none; font-size: 1em;}
+.title{
+  text-align: center;
+  font-size: 4em;
+}
+.personal{
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+}
+.information{
+  width:40%;
+  text-align: right;
+}
+.information h2{
+  padding-right: 40px;
+}
+.information ul li{
+  list-style: none;
+}
+.data{
+  width: 65%;
+  padding-top: 0.7%;
+}
+.data ul{
+  padding-top: 16px;
+}
+.data li{
+  list-style: none;
+}
+.others{
+  text-align: justify;
+  display: block;
+  margin: auto;
+}
+.others li{
+  list-style: none;
+  font-size: 1em;
+}
 /*
 this is for contact page.
 */
 .contactsection{
   background: #e9ebee;
   color: #520030;
-
-}
-
-/*
-this is for contact
-*/
-.contactsection{
   padding-top: 20px;
   width: 100%;
   display: flex;
@@ -264,24 +282,38 @@ this is for contact
   text-align: center;
   font-size: 1.3em;
 }
-.mycontact img{height: 40%; width: 40%; border-radius: 50px;}
-.mycontact h1{font-size: 3em;}
+.mycontact img{
+  height: 40%;
+  width: 40%;
+  border-radius: 50px;
+}
+.mycontact h1{
+  font-size: 3em;
+}
 
-.form{width: 50%;
-
+.form{
+  width: 50%;
 }
 .form h1{
   font-size: 4em;
 }
 .form p{
-  font-size: 1.4em;}
-.form input{ width: 60%; height: 30px;}
-.form .submit{width: 60%; }
-.get{display: block; margin: auto;}
-textarea{width: 60%;}
-
-
-
+  font-size: 1.4em;
+}
+.form input{
+  width: 60%;
+  height: 30px;
+}
+.form .submit{
+  width: 60%;
+}
+.get{
+  display: block;
+  margin: auto;
+}
+textarea{
+  width: 60%;
+}
 
 footer{
   background-color:   #1c4a68;
@@ -290,8 +322,6 @@ footer{
   color: white;
   width: 100%;
   border-top:  #65666a 3px solid;
-
-
 }
 .foot{
   height: 50%;
@@ -300,16 +330,34 @@ footer{
   display: flex;
   flex-direction: row;
 }
+.icon a img{
+  height:100px;
+   width: 200px;
+ }
+.icon{
+  width:33%;
+  display: inline-flex;
+  flex-direction: row;
+  text-align: center;
+}
+.copy{text-align: center;
+  padding-right: 15px;
+}
+.logos
+{
+	width:40px;
+	height:40px;
+	background:#009;
+	margin-left:4px;
+	margin-top:3px;
+	margin-bottom:3px;
+	padding-left: 10px;
 
-.foot i{font-size: 3.5em; padding: 10px; padding-top: 30px;}
-.fa-google-plus-square{color: red;}
-.fa{color: #fff;}
-.fa-insta{color:#a40061;}
-.fa-pin{color: #7f0000;}
-
-.icon a img{height:100px; width: 200px;  }
-.icon{width:33%;}
-.copy{text-align: center;}
+}
+.logos:hover
+{
+	opacity:0.9;
+}
 
 @media (max-width: 600px)
 {
@@ -373,49 +421,99 @@ header .nav ul li a{font-size: 1em;}
   display: flex;
   flex-direction: column;
 }
-.gallery{display: flex;
-flex-direction: row;
-justify-content: center;}
-.gallery img{height: 100px; width: 100px; padding: 2px; }
+.gallery{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;}
+.gallery img{
+  height: 100px;
+  width: 100px;
+  padding: 2px;
+}
 .aboutsection{
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-.aboutimage{width: 100%;
+.aboutimage{
+  width: 100%;
 }
-.aboutmain{width: 100%;}
-.aboutmain h1{font-size: 2em;}
-.aboutmain p{font-size: 1em;}
-.aboutmain h2{font-size: 1em; padding-top: 50px; padding-bottom: 10px;}
+.aboutmain{
+  width: 100%;
+}
+.aboutmain h1{
+  font-size: 2em;
+}
+.aboutmain p{
+  font-size: 1em;
+}
+.aboutmain h2{
+  font-size: 1em;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
 
-.cvsection{width: 100%;}
-.cvsection .title h1{font-size: 0.5em;}
-.personal{width:100%;}
-.information{width:50%;}
-.information h2{text-align: left;}
-.data ul{padding-top: 26px;}
-.others{width: 100%;}
-.others li{padding: 5px;}
+.cvsection{
+  width: 100%;
+}
+.cvsection .title h1{
+  font-size: 0.5em;
+}
+.personal{
+  width:100%;
+}
+.information{
+  width:50%;
+}
+.information h2{
+  text-align: left;
+}
+.data ul{
+  padding-top: 26px;
+}
+.others{
+  width: 100%;
+}
+.others li{
+  padding: 5px;
+}
 .contactsection{
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-.mycontact{width: 100%; text-align: left;  padding-left: 10px;}
-.mycontact h1{font-size: 2em;}
-.mycontact p{font-size: 0.8em; }
+.mycontact{
+  width: 100%;
+  text-align: left;
+  padding-left: 10px;
+}
+.mycontact h1{
+  font-size: 2em;
+}
+.mycontact p{
+  font-size: 0.8em;
+}
 .form{
   width: 100%;
   padding-left: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.form h1{font-size: 2em;}
-.form p{font-size: 1em;}
-.form input{width:80%;}
-textarea{width: 80%;}
-.form .submit{width: 80%;}
+.form h1{
+  font-size: 2em;
+}
+.form p{
+  font-size: 1em;
+}
+.form input{
+  width:80%;
+}
+textarea{
+  width: 80%;
+}
+.form .submit{
+  width: 80%;
+}
 footer{
   display: flex;
   flex-direction: column;
@@ -431,4 +529,10 @@ footer{
 .icon i{
   font-size: 2em;
 }
-.icon{width: 100%;}
+.icon{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+}
