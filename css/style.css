@@ -7,7 +7,7 @@ h1,h2,h3,h4,h5,h6,p, body{margin: 0; padding: 0;
 header{
   width: 100%;
   background-color: #520030;/*this property is used for making the background colorful*/
-  display: flex;        /*this property is used to */
+  display: flex;        /*this property is used to * source:https://www.w3schools.com/cssref/css3_pr_flex.asp*/
   flex-direction: column;/*this property helps the divs to be shown in column*/
   border-bottom: white 1px solid; /*this property is is used for border in bottom with white in color of size 1px and solid*/
 }
@@ -25,7 +25,7 @@ header img{
 
 }
 .nav ul{
-  color: white;
+  color: white; /*this property is used for coloring the text.*/
   display: flex;
   flex-direction: row;
   justify-content: center; /*this property is used to make the things to be in center*/
@@ -42,18 +42,18 @@ header img{
  .nav ul li a{
   color: white;
   list-style: none;
-  text-decoration: none;
+  text-decoration: none;/*this property helps to remove underline in the link. */ 
 }
 
-.nav ul li:hover{
+.nav ul li:hover{ /*hover is a special property that is seen when we point the objects on website with mouse */
   background-color: #e9ebee;
-  transition: 2s;
+  transition: 2s;/*this property used for time taken by the CSS3 properties */
 }
 .nav ul li a:hover{
   color: red;
 }
 /*
-the codes below is for homepage.
+the codes written below is for homepage.
 */
 .homesection{
   background-color: #e9ebee;
@@ -62,12 +62,11 @@ the codes below is for homepage.
   color: #520030;
   width: 100%;
 }
-
 .info{
   padding-top: 1px;
   width: 30%;
-  border-top:#65666a 3px solid;
-  border-right:#65666a 3px solid;
+  border-top: #65666a 3px solid;
+  border-right: #65666a 3px solid;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -80,14 +79,14 @@ the codes below is for homepage.
   font-size: 2em;
 }
 .article p{
-  text-align: justify;
+  text-align: justify;/*this property is used for alignment of the texts*/
   font-size: 1.3em;
   padding: 20px;
 }
-.article fieldset{
+.article fieldset{/*this fieldset property is used for creating the field in website*/
   border-top: #65666a 3px solid;
   background: #83004d;
-  color:white;
+  color: white;
 }
 
 .main{
@@ -101,7 +100,7 @@ the codes below is for homepage.
 
 .main h1{
   font-size: 3em;
- text-shadow: 0 0 3px #FF0000;
+  text-shadow: 0 0 3px #FF0000; /*this property is used for putting shadow on text.*/
 }
 .main p{
   padding: 2%;
@@ -109,24 +108,20 @@ the codes below is for homepage.
   font-size: 1em;
 }
 .main img{
-  margin: auto;
   width: 400px;
   border-radius: 50%;
   height: 400px;
-  box-shadow: 0 0 3px 2px black;
+  box-shadow: 0 0 3px 2px black;/*this property is used for shadowing the box*/
 }
-
 
 .main img:hover{
   transition: 4s;
   box-shadow: 0 0 3px 2px white;
-  transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);/*this property is used for transforming image into smaller or larger one*/
 }
-
 .main h3{
   font-size: 2em;
 }
-
 .art{
   padding-top: 1px;
   border-top:#65666a 3px solid;
@@ -153,7 +148,8 @@ the codes below is for homepage.
 .gallery{
   display: flex;
   flex-direction: row;
-  justify-content: center; padding-top: 5px;
+  justify-content: center; 
+  padding-top: 5px;
 }
 .gallery img{
   height: 130px;
@@ -347,7 +343,7 @@ footer{
 .icon h2{padding-top: 5px; }
 .logos1
 {
-  background-image: url(../images/fb.jpg);
+  background-image: url(../images/fb.jpg); /*this property is used for showing the background image in a block. the source of the code is https://www.youtube.com/watch?v=3k1I4KJKdK4 */
 	width:25px;
 	height:34px;
 	margin-left:10px;
@@ -357,7 +353,7 @@ footer{
 }
 .logos1:hover
 {
-	opacity:0.5;
+	opacity:0.5;/*this is used for brightness of the text, image or box*/
 }
 .logos2
 {
@@ -404,8 +400,7 @@ footer{
 .copy{text-align: center;
   padding-right: 25px;
 }
-@media (max-width: 600px)
-{
+@media (max-width: 600px){ /*this property is used for making the website responsive so that all the resolution can support*/
 header{
   display: flex;
   flex-direction: column;
