@@ -1,3 +1,7 @@
+/*
+Name: Raj Kumar Phagami
+UN ID: 16418523
+*/
 h1,h2,h3,h4,h5,h6,p, body{margin: 0; padding: 0;
 }
 header{
@@ -5,14 +9,10 @@ header{
   background-color: #520030;/*this property is used for making the background colorful*/
   display: flex;        /*this property is used to */
   flex-direction: column;/*this property helps the divs to be shown in column*/
-}
-
-header{
-  height: 50%;
   border-bottom: white 1px solid; /*this property is is used for border in bottom with white in color of size 1px and solid*/
 }
 header img{
-  height: 10%;
+  height: 20%;
   width: 10%;
   border-radius: 100px;/*this property is used to make different shapes for divs or images*/
   display: block;/* this property is used to make the image alignment to the center of the page*/
@@ -22,7 +22,7 @@ header img{
   background-color: #520030;
   font-size: 1.5em; /*this property is used to specify the size of the font*/
   width: 100%;
-  
+
 }
 .nav ul{
   color: white;
@@ -334,33 +334,76 @@ footer{
 }
 .icon a img{
   height:100px;
-   width: 200px;
+  width: 300px;
+  padding-left: 10px; 
  }
 .icon{
   width:33%;
   display: inline-flex;
   flex-direction: row;
   text-align: center;
+  padding-top: 10px;
 }
-.copy{text-align: center;
-  padding-right: 15px;
-}
-.logos
+.icon h2{padding-top: 5px; }
+.logos1
 {
-	width:40px;
-	height:40px;
-	background:#009;
-	margin-left:4px;
-	margin-top:3px;
+  background-image: url(../images/fb.jpg);
+	width:25px;
+	height:34px;
+	margin-left:10px;
+	margin-top:4px;
 	margin-bottom:3px;
 	padding-left: 10px;
-
 }
-.logos:hover
+.logos1:hover
 {
-	opacity:0.9;
+	opacity:0.5;
 }
-
+.logos2
+{
+  background-image: url(../images/ig.jpg);
+  width:25px;
+  height:34px;
+  margin-left:10px;
+  margin-top:4px;
+  margin-bottom:3px;
+  padding-left: 10px;
+}
+.logos2:hover
+{
+  opacity:0.5;
+}
+.logos3
+{
+  background-image: url(../images/tt.jpg);
+  width:25px;
+  height:34px;
+  margin-left:10px;
+  margin-top:4px;
+  margin-bottom:3px;
+  padding-left: 10px;
+}
+.logos3:hover
+{
+  opacity:0.5;
+}
+.logos4
+{
+  background-image: url(../images/twt.jpg);
+  width:25px;
+  height:34px;
+  margin-left:10px;
+  margin-top:4px;
+  margin-bottom:3px;
+  padding-left: 10px;
+}
+.logos4:hover
+{
+  opacity:0.5;
+}
+.copy{text-align: center;
+  padding-right: 25px;
+}
 @media (max-width: 600px)
 {
 header{
