@@ -7,22 +7,24 @@ header{
   flex-direction: column;/*this property helps the divs to be shown in column*/
 }
 
-header .logo{
+header{
   height: 50%;
   border-bottom: white 1px solid; /*this property is is used for border in bottom with white in color of size 1px and solid*/
 }
-header .logo img{
+header img{
   height: 10%;
   width: 10%;
   border-radius: 100px;/*this property is used to make different shapes for divs or images*/
   display: block;/* this property is used to make the image alignment to the center of the page*/
   margin: auto;
  }
-header .nav{
-  height: 50%;
+.nav{
+  background-color: #520030;
   font-size: 1.5em; /*this property is used to specify the size of the font*/
+  width: 100%;
+  
 }
-header .nav ul{
+.nav ul{
   color: white;
   display: flex;
   flex-direction: row;
@@ -30,24 +32,24 @@ header .nav ul{
   margin: auto;
 }
 
-header .nav ul li{
+.nav ul li{
   padding: 20px;/*this property is used for distancing text or something from the sides and corners within a block*/
   list-style: none;/*this property is used to remove the style of list*/
   padding-right: 50px;
   padding-left: 50px;
   border-radius: 10px;
 }
-header .nav ul li a{
+ .nav ul li a{
   color: white;
   list-style: none;
   text-decoration: none;
 }
 
-header .nav ul li:hover{
+.nav ul li:hover{
   background-color: #e9ebee;
   transition: 2s;
 }
-header .nav ul li a:hover{
+.nav ul li a:hover{
   color: red;
 }
 /*
@@ -367,12 +369,12 @@ header{
   width: 100%;
   border: none;
 }
-header .logo{width: 100%; height: 100px;}
-header .logo img{height: 100px; width: 100px;}
-header .nav{
+
+header img{height: 100px; width: 100px;}
+.nav{
   width:100%;
 }
-header .nav ul{
+.nav ul{
   width:100%;
   display: flex;
   flex-direction: column;
@@ -535,4 +537,5 @@ footer{
   flex-direction: column;
   text-align: left;
 }
+.copy{text-align: left;}
 }
