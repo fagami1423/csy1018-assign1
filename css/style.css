@@ -230,39 +230,15 @@ this is for cv page
   text-align: center;
   font-size: 4em;
 }
-.personal{
+.others{
   display: flex;
   flex-direction: row;
-  font-size: 1em;
+}
+.nothing{
+  width: 35%;
 }
 .information{
-  width:40%;
-  text-align: right;
-}
-.information h2{
-  padding-right: 40px;
-}
-.information ul li{
-  list-style: none;
-}
-.data{
   width: 65%;
-  padding-top: 0.7%;
-}
-.data ul{
-  padding-top: 16px;
-}
-.data li{
-  list-style: none;
-}
-.others{
-  text-align: justify;
-  display: block;
-  margin: auto;
-}
-.others li{
-  list-style: none;
-  font-size: 1em;
 }
 /*
 this is for contact page.
