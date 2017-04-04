@@ -475,27 +475,24 @@ header .nav ul li a{font-size: 1em;}
 
 .cvsection{
   width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.nothing{
+  display: none
 }
 .cvsection .title h1{
   font-size: 0.5em;
-}
-.personal{
-  width:100%;
-}
-.information{
-  width:50%;
-}
-.information h2{
-  text-align: left;
-}
-.data ul{
-  padding-top: 26px;
+  width: 100%;
 }
 .others{
   width: 100%;
 }
-.others li{
-  padding: 5px;
+.information{
+  width:100%;
+}
+.information h2{
+  text-align: left;
 }
 .contactsection{
   width: 100%;
