@@ -151,10 +151,14 @@ the codes written below is for homepage.
   justify-content: center; 
   padding-top: 5px;
 }
+.gallery .photo{
+  height: 140px;
+  width: 140px;
+  padding:3px;
+}
 .gallery img{
-  height: 130px;
-  width: 130px;
-  padding: 2px;
+  height: 120px;
+  width: 120px;
   border: #520030 1px solid;
 }
 .gallery img:hover{
