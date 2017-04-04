@@ -399,11 +399,11 @@ header img{height: 100px; width: 100px;}
   padding:0;
   justify-content: flex-start;
 }
-header .nav ul li{
+.nav ul li{
+  padding-left: 20px;
   text-align: left;
-  font-size: 0.5em;
 }
-header .nav ul li a{font-size: 1em;}
+.nav ul li a{font-size: 0.8em;}
 .homesection
 {
   width: 100%;
@@ -420,11 +420,26 @@ header .nav ul li a{font-size: 1em;}
   width: 100%;
   padding-top: 1%;
 }
+.article fieldset{
+  border: none;
+}
+.article h2{
+  font-size: 1.5em;
+}
+.article p{
+  font-size: 1em;
+}
 .main{
   width: 100%;
   border: none;
 }
-.main img{height: 300px; width: 300px; border-radius: 50%;}
+.main h1{
+  font-size: 2em;
+}
+.main img{
+  height: 300px; 
+  width: 300px; 
+  border-radius: 50%;}
 .art{
   margin-top: 2%;
   display: flex;
@@ -432,9 +447,13 @@ header .nav ul li a{font-size: 1em;}
   width: 100%;
   border: none;
 }
-.art fieldset{border: none}
+.art fieldset{
+  border: none
+}
+.art h2{
+  font-size: 1.5em;
+}
 .drawing{
-
   height: 50%;
   padding-top: 1px;
   width: 100%;
@@ -449,6 +468,12 @@ header .nav ul li a{font-size: 1em;}
   height: 100px;
   width: 100px;
   padding: 2px;
+}
+.links fieldset{
+  border: none;
+}
+.links ul li a{
+  font-size: 0.6em;
 }
 .aboutsection{
   width: 100%;
